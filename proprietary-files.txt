@@ -634,9 +634,3 @@ vendor/firmware/aw8697_rtp_1.bin
 
 # Wi-Fi
 vendor/firmware/wifi.cfg
-
-# Moto
-system/app/Calendar/Calendar.apk
-system/app/Compass/Compass.apk
-system/app/Note/Note.apk
-system/app/Widget/Widget.apk
