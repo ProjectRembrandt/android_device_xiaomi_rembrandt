@@ -168,3 +168,5 @@ spmtwam.ko
 elliptic.ko
 sec.ko
 emi-mpu-hook-v1.ko
+kshrink_slabd.ko
+kshrink_lruvecd.ko
