@@ -1,5 +1,5 @@
-# Unpinned firmware from HyperOS V816.0.8.0.UMMCNXM (rembrandt) fastboot package
-# Ship eng preloader image from plato
+# Unpinned firmware from HyperOS OS2.0.18.0.UMMCNXM (rembrandt) fastboot package
+# Ship eng preloader image from plato eng ROM
 
 apusys.img;AB
 audio_dsp.img;AB

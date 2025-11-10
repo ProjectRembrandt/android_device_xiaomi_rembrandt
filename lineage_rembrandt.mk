@@ -19,10 +19,6 @@ TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440
 TARGET_BOOT_ANIMATION_RES := 1440
 
-# ROM Flags
-TARGET_DISABLE_EPPE := true
-WITH_GMS := true
-
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := rembrandt
 PRODUCT_MANUFACTURER := Xiaomi
@@ -34,5 +30,8 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Redmi/rembrandt/rembrandt:14/UP1A.231005.007/V816.0.8.0.UMMCNXM:user/release-keys \
-    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+    BuildFingerprint=Redmi/rembrandt/rembrandt:14/UP1A.231005.007/OS2.0.18.0.UMMCNXM:user/release-keys \
+    DeviceName=$(PRODUCT_SYSTEM_NAME) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
+    SystemDevice=$(PRODUCT_SYSTEM_NAME) \
+    SystemName=$(PRODUCT_SYSTEM_NAME)

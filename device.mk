@@ -7,9 +7,6 @@
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
-# Call the MiuiCamera setup
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-rembrandt/device.mk)
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
