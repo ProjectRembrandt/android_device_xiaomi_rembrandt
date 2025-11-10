@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/rembrandt/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Include AviumUI special configs
+include device/xiaomi/rembrandt/avium_common.mk
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440
