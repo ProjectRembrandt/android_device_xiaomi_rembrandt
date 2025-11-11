@@ -11,11 +11,6 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Fastboot package
-PRODUCT_BUILD_SUPER_PARTITION := true
-PRODUCT_FASTBOOT_TEMPLATE_ZIP := $(LOCAL_PATH)/prebuilts/fastboot.zip
-PRODUCT_FASTBOOT_IMAGES_PATH := images
-
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
