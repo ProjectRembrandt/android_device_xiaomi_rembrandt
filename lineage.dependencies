@@ -1,0 +1,50 @@
+[
+   {
+   "repository"  : "ProjectRembrandt/android_vendor_xiaomi_mt6895-common",
+   "target_path" : "vendor/xiaomi/mt6895-common",
+   "remote"      : "github",
+   "branch"      : "12.1"
+ },
+  {
+   "repository"  : "ProjectRembrandt/android_vendor_xiaomi_rembrandt",
+   "target_path" : "vendor/xiaomi/rembrandt",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+ {
+   "repository"  : "ProjectRembrandt/android_device_xiaomi_mt6895-common",
+   "target_path" : "device/xiaomi/mt6895-common",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+ {
+   "repository"  : "ProjectRembrandt/android_kernel_xiaomi_mt6895",
+   "target_path" : "kernel/xiaomi/mt6895",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+{
+   "repository"  : "ProjectRembrandt/android_device_mediatek_sepolicy_vndr",
+   "target_path" : "device/mediatek/sepolicy_vndr",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+{
+   "repository"  : "ProjectRembrandt/android_vendor_mediatek_ims",
+   "target_path" : "vendor/mediatek/ims",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+{
+   "repository"  : "ProjectRembrandt/android_hardware_mediatek",
+   "target_path" : "hardware/mediatek",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+{
+   "repository"  : "ProjectRembrandt/android_hardware_xiaomi",
+   "target_path" : "hardware/xiaomi",
+   "remote"      : "github",
+   "branch"      : "16"
+ },
+]
