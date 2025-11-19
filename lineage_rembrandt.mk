@@ -35,3 +35,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
     SystemDevice=$(PRODUCT_SYSTEM_NAME) \
     SystemName=$(PRODUCT_SYSTEM_NAME)
+
+# Inherit AviumUI configs.
+include device/xiaomi/rembrandt/avium_common.mk
