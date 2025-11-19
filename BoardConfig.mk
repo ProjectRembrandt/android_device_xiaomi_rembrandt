@@ -12,10 +12,6 @@ include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 560
 
-# Fastboot package
-BOARD_BOOTLOADER_IN_UPDATE_PACKAGE := true
-BOARD_SUPER_IMAGE_IN_UPDATE_PACKAGE := true
-
 # Kernel
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load))
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load.recovery))
